@@ -1,0 +1,9 @@
+namespace Interface.Shared;
+
+public class A: ISampleInterface
+{
+     public void SampleMethod()
+     {
+        Console.WriteLine("Class A");
+     }
+}
